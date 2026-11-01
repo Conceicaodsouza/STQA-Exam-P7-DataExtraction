@@ -1,0 +1,12 @@
+{
+  "name": "STQA Practical 7 - Java 11 Selenium",
+  "image": "mcr.microsoft.com/devcontainers/java:1-11-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "11",
+      "installMaven": "true",
+      "installGradle": "false"
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y chromium chromium-driver"
+}

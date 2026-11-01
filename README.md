@@ -1,0 +1,1 @@
+# STQA-Practical-7-DataExtraction
